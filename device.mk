@@ -61,9 +61,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MtkFMRadio
 
-# Gcam Go
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V3
 
 # Maintainer Overlays
 DEVICE_PACKAGE_OVERLAYS += \
