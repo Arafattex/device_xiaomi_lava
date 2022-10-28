@@ -64,3 +64,7 @@ PRODUCT_PACKAGES += \
 # Gcam Go
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V3
+
+# Maintainer Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
