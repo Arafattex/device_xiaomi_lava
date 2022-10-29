@@ -38,6 +38,9 @@ BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := @shas45558
 IS_PHONE := true
 
+# Gapps
+WITH_GAPPS := true
+
 #
 # All components inherited here go to system_ext image
 #
