@@ -58,8 +58,8 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sku_props/build_dsds_vendor.prop:$(TARGET_COPY_OUT_VENDOR)/build_dsds_vendor.prop
 
 # FM Radio
-PRODUCT_PACKAGES += \
-    MtkFMRadio
+#PRODUCT_PACKAGES += \
+#    MtkFMRadio
 
 
 # Maintainer Overlays
