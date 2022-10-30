@@ -13,6 +13,5 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="pex_maintainer_name" translatable="false">@shas45558 (Arafattex)</string>
-    <string name="pex_maintainer_group" translatable="false">https://github.com/Arafattex</string>
+    <string name="device_maintainer">Arafattex(@shas45558)</string>
 </resources>
