@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/aosp_lava.mk
+   $(LOCAL_DIR)/bootleg_lava.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lava-user \
-    aosp_lava-userdebug \
-    aosp_lava-eng
+    bootleg_lava-user \
+    bootleg_lava-userdebug \
+    bootleg_lava-eng
