@@ -31,7 +31,7 @@ $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 #
 
 #Gapps
-WITH_GAPPS := true
+#WITH_GAPPS := true
 
 # All components inherited here go to system_ext image
 #
