@@ -18,6 +18,6 @@ PRODUCT_MAKEFILES := \
    $(LOCAL_DIR)/aosp_lava.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lava-user \
-    aosp_lava-userdebug \
-    aosp_lava-eng
+    corvus_lava-user \
+    corvus_lava-userdebug \
+    corvus_lava-eng
