@@ -21,6 +21,12 @@ TARGET_SCREEN_HEIGHT := 2340
 # Inherit from lava device makefile
 $(call inherit-product, device/xiaomi/lava/device.mk)
 
+# Mind the gapps 
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
+# Shas
+$(call inherit-product, vendor/shas/shas.mk)
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -38,7 +44,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lava
-PRODUCT_NAME := aosp_lava
+PRODUCT_NAME := corvus_lava
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := xiaomi
 
