@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/aosp_lava.mk
+   $(LOCAL_DIR)/corvus_lava.mk
 
 COMMON_LUNCH_CHOICES := \
     corvus_lava-user \
