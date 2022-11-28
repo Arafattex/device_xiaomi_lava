@@ -33,8 +33,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-TARGET_USES_AOSP_RECOVERY := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+CORVUS_MAINTAINER := shas45558
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 #
 # All components inherited here go to system_ext image
