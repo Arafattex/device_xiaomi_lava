@@ -21,8 +21,9 @@ TARGET_SCREEN_HEIGHT := 2340
 # Inherit from lava device makefile
 $(call inherit-product, device/xiaomi/lava/device.mk)
 
-# Mind the gapps 
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+# Mind the gapps /ngapps
+# $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+$(call inherit-product, vendor/ngapps/gapps.mk)
 
 # Shas
 $(call inherit-product, vendor/shas/shas.mk)
