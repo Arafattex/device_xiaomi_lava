@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/corvus_lava.mk
+   $(LOCAL_DIR)/omni_lava.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_lava-user \
-    corvus_lava-userdebug \
-    corvus_lava-eng
+    omni_lava-user \
+    omni_lava-userdebug \
+    omni_lava-eng
